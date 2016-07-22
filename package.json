@@ -1,0 +1,19 @@
+{
+  "name": "codercises",
+  "version": "0.0.1",
+  "description": "Short excercises to keep the coding skills sharp",
+  "main": "index.js",
+  "author": "Nate Tate",
+  "dependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "code",
+    "programming",
+    "javascript",
+    "excercises",
+    "interview"
+  ],
+  "license": "ISC"
+}
