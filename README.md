@@ -1,6 +1,7 @@
 ## Programming Challenges
 
-A list of small programming excercises to keep the coding skills sharp.
+A list of small programming excercises to keep the coding skills sharp.  We will 
+be victoooooorious!
 
 ### Setting up Cloud9 IDE
 1. create git repo and clone to workspace
