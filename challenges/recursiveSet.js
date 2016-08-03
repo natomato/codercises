@@ -25,7 +25,7 @@ function recursiveSet (arr) {
   
   //combine first element with recursiveSet(tail) => ['a'] + recursiveSet() -> [''] 
   //  => ['a'], Set will just ignore this extra 'a'
-  var tailGroups[0] = recursiveSet(tail.join(''), items);
+  var tailGroups = recursiveSet(tail.join(''), items);
   var headGroups = tailGroups.forEach(function(group) {
     return head+group
   });
@@ -44,8 +44,8 @@ function recursiveSet (arr) {
 
 
 recursiveSet('') //-> ['']
-recursiveSet('a') //-> ['']
-recursiveSet('ba') // ->"[ab, ba, a, b, '']"
+recursiveSet('a') //-> ['', 'a']
+recursiveSet('ba') // -> [ab, ba, a, b, '']
 
 
 
